@@ -4,11 +4,7 @@ import torch
 
 def train(args):
     model = model_factory[args.model]()
-   
-    """
-    Your code here
 
-    """
     print("code here")
     traindata_path = "data/train"
     testdata_path = "data/valid"
